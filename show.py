@@ -9,5 +9,4 @@ def main():
         wakas = [s.strip() for s in f.readlines()]
         print(wakas[random.randrange(len(wakas))])
 
-if __name__ == '__main__':
-    main()
+print("今日の一句" + wakas[random.randrange(len(wakas))])
